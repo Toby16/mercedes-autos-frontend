@@ -2,8 +2,9 @@
 html, body {
     margin: 0;
     min-height: 100vh;
-    padding: 0;
     overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0;
 }
 
 
@@ -11,8 +12,9 @@ html, body {
 article {
     color: #EAF0F7;
     font-family: Tahoma;
-    font-size: 110%;
+    line-height: 1.4;
     margin: 6% 6% 0 6%;
+    text-align: justify;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000,
         -1px 1px 0 #000, 1px 1px 0 #000;
 }
@@ -21,6 +23,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-y: hidden;
     transition: background-image 1s ease;
 }
 
@@ -45,7 +48,7 @@ footer table tr td a {
 header {
     align-items: center;
     display: flex;
-    gap: 0.5%;  /* Adds space between image and h1 */
+    gap: 0.5%;
     margin-top: 10px;
     padding-left: 5px;
 }
@@ -128,7 +131,7 @@ section table tr th {
 
 /* class */
 .entire {
-    margin: -2% 0 10% 0;
+    margin: -4% 0 10% 0;
 }
 
 .homepage_logo {
@@ -148,9 +151,9 @@ section table tr th {
     word-spacing: 10px;
 }
 .login_or_signup a {
-    background-color: #13111A;
-    border: 1px solid #F8B821;
-    border-radius: 19px;
+    background-color: rgb(29, 29, 29);
+    border: 1px solid darkgray;
+    border-radius: 8px;
     color: #EAF0F7;
     padding: 5px 30px 5px 30px;
     text-decoration: none;
@@ -159,8 +162,6 @@ section table tr th {
     word-spacing: normal;
 }
 .login_or_signup a:hover {
+    background-color: rgba(19, 17, 26, 0.6);
     border: 1px solid darkgray;
-    color: #13111A;
-    text-shadow: -1px -1px 0 #F8B821, 1px -1px 0 #F8B821,
-        -1px 1px 0 #F8B821, 1px 1px 0 #F8B821;
 }
