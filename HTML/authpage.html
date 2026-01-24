@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to your account!</title>
+    <link rel="icon" href="../assets/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../CSS/authpage.css">
+
+    <link rel="preload" href="../assets/background_img_5.jpg" as="image">
+    <link rel="preload" href="../assets/background_img_6.jpg" as="image">
+    <link rel="preload" href="../assets/background_img_7.jpg" as="image">
+    <link rel="preload" href="../assets/background_img_8.jpg" as="image">
+</head>
+<body>
+    <header>
+        <a href="homepage.html">
+	    	<img class="auth_logo" src="../assets/logo.svg">
+	    </a>
+	    <a href="homepage.html">
+            	<h1>Mercedes Autos</h1>
+	    </a>
+    </header>
+    <br>
+
+    <article>
+        <div class="sso_icons">
+            <p>
+            <a class="google_icon" href="#">
+	    	    <img class="google_icon" src="../assets/google_icon.svg">
+                google
+	        </a>
+            </p>
+            <p>
+            <a class="facebook_icon" href="#">
+	    	    <img class="facebook_icon" src="../assets/facebook_icon.svg">
+                facebook
+	        </a>
+            </p>
+            <p>
+            <a class="twitter_icon" href="#">
+	    	    <img class="twitter_icon" src="../assets/twitter_icon.svg">
+                twitter
+	        </a>
+            </p>
+        </div>
+        <p>You <strong>must</strong> prove who you are before we let you access anything.</p>
+        <br>
+    </article>
+    <br>
+
+    <section class="auth_input">
+        <form>
+            <label for="username">Email address or Username</label>
+            <br>
+            <input autocomplete="on" id="username" name="username" placeholder="autos@mercedes.com" type="text" required>
+            <br>
+
+            <label for="password">Password</label>
+            <br>
+            <input id="password" name="password" placeholder="password" type="password" required>
+            <br>
+
+            <span>
+            <input name="login" type="submit" value="Log in">
+            <!--NOTE: Signup functionality will only take in email &password
+            Login will take either username or email and password-->
+            <input name="signup" type="submit" value="Sign-up">
+            </span>
+        </form>
+    </section>
+    <br>
+
+    <section class="forgot_password">
+        <p>
+            <a href="#" target="_blank">forgot your password?</a>
+        </p>        
+    </section>
+
+    <!-- Javascript -->
+    <script src="../JS/authpage.js"></script>
+</body>
+</html>
