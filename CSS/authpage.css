@@ -1,0 +1,172 @@
+html, body {
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+/* type */
+article {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
+article p {
+    color: #EAF0F7;
+    font-family: Tahoma;
+    font-size: 12px;
+}
+
+body {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 1s ease;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    gap: 0.5%;  /* Adds space between image and h1 */
+    margin-top: 10px;
+    margin-bottom: 70px;
+    padding-left: 5px;
+}
+header a {
+    text-decoration: none;
+}
+
+h1 {
+    color: #EAF0F7;
+    font-family: Tahoma;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 0 0 0 3px;
+    text-align: left;
+}
+
+
+/* class */
+.facebook_icon {
+    background-color: rgba(89, 148, 243, 0.6);
+    border-radius: 5px;
+}
+.facebook_icon:hover {
+    background-color: rgba(89, 148, 243, 0.9);
+}
+
+.forgot_password {
+    margin-top: -20px;
+    text-align: center;
+}
+.forgot_password p {
+    font-family: Tahoma;
+    font-size: 13px;
+}
+.forgot_password p a {
+    color: #EAF0F7;
+    text-decoration: none;
+}
+.forgot_password p a:hover {
+    color: rgba(234, 240, 247, 0.7);
+    text-decoration: none;
+}
+
+
+.google_icon {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+}
+.google_icon:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.auth_input {
+    color: #EAF0F7;
+    font-family: Tahoma;
+    text-align: center;
+    padding: 0 40px;
+}
+.auth_input form {
+    display: inline-block;
+    text-align: left;
+    max-width: 300px;
+    width: 80%;
+}
+.auth_input form label {
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: -17px;
+    text-shadow: -1px -1px 0 #13111A, 1px -1px 0 #13111A,
+        -1px 1px 0 #13111A, 1px 1px 0 #13111A;
+}
+.auth_input form input {
+    border-radius: 7px;
+    margin-bottom: 15px;
+    padding: 4px 5px 4px 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.auth_input form input[type="password"],
+.auth_input form input[type="text"] {
+    letter-spacing: 1px;
+    background-color: #EAF0F7;
+    border: 1px solid darkgray;
+    color: #000;
+    font-family: Tahoma;
+    font-size: 11px;
+}
+.auth_input form input[type="submit"] {
+    background-color: rgb(199, 199, 199);
+    font-family: Tahoma;
+    font-size: 10px;
+    border: 1px solid #13111A;
+    font-weight: bold;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+.auth_input form input[type="submit"]:hover {
+    background-color: rgba(234, 240, 247, 0.7);
+}
+
+.auth_input form span {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.auth_logo {
+    height: auto;
+    margin: 0;
+    width: 30px;
+}
+
+.sso_icons {
+    align-items: center;
+    display: flex;
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: 550;
+    gap: 20px;
+    justify-content: center;
+}
+.sso_icons p a {
+    color: #13111A;
+    padding: 5px 5px 2px 5px;
+    text-decoration: none;
+}
+.sso_icons p a img {
+    margin: 0 1px 0 0;
+    width: 15px;
+}
+
+.twitter_icon {
+    background-color: rgba(169, 169, 169, 0.6);
+    border-radius: 5px;
+}
+.twitter_icon:hover {
+    background-color: rgba(169, 169, 169, 0.9);
+}
