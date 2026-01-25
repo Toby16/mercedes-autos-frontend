@@ -28,7 +28,7 @@ body {
 header {
     align-items: center;
     display: flex;
-    gap: 0.5%;  /* Adds space between image and h1 */
+    gap: 0.5%;
     margin-top: 10px;
     margin-bottom: 70px;
     padding-left: 5px;

@@ -1,4 +1,8 @@
 const images = [
+    "../assets/background_img_1.jpg",
+    "../assets/background_img_2.jpg",
+    "../assets/background_img_3.jpg",
+    "../assets/background_img_4.jpg",
     "../assets/background_img_5.jpg",
     "../assets/background_img_6.jpg",
     "../assets/background_img_7.jpg",
