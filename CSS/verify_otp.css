@@ -1,0 +1,126 @@
+/* special cases */
+html, body {
+    margin: 0;
+    min-height:100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0;
+}
+
+/* type */
+body {
+    /*
+    background-color: #000;
+    */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+    transition: background-image 1s ease;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    gap: 0.5%;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    padding-left: 5px;
+}
+header a {
+    text-decoration: none;
+}
+
+h1 {
+    color: #EAF0F7;
+    font-family: Tahoma;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 0 0 0 3px;
+    text-align: left;
+}
+
+section {
+    margin-top: -30px;
+}
+section a {
+    color: #EAF0F7;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+section a:hover {
+    color: rgba(234, 240, 247, 0.8);
+}
+section p {
+    color: #EAF0F7;
+    font-family: Tahoma;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* class */
+.logo {
+    height: auto;
+    margin: 0;
+    width: 30px;
+}
+
+.otp_container {
+    text-align: center;
+}
+
+.otp_input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 24px;
+    height: 40px;
+    margin-right: 5px;
+    text-align: center;
+    width: 40px;
+}
+
+.otp_submit {
+    background-color: #EAF0F7;
+    border: none;
+    border-radius: 8px;
+    color: #000;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 19px;
+    padding: 5px 0;
+    transition: background-color 0.3s ease;
+    width: 90px;
+}
+.otp_submit:disabled {
+    cursor: not-allowed;
+}
+.otp_submit[type="submit"]:hover {
+    background-color: rgba(234, 240, 247, 0.6);
+}
+
+.verify_message {
+    color: #EAF0F7;
+    font-family: Tahoma;
+    text-align: center;
+}
+.verify_message h3 {
+    font-size: 13px;
+}
+.verify_message hr {
+    background-color: #EAF0F7;
+    border: none;
+    border-radius: 10px;
+    height: 2px;
+    margin-top: -10px;
+    width: 215px;
+}
+
+.verify_message_p_end {
+    font-family: Tahoma;
+    font-size: 70%;
+    font-weight: bold;
+    margin-top: -0.5%;
+}
+
+/* id */

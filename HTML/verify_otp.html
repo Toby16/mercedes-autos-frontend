@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>verify your One-Time-Password!</title>
+    <link rel="icon" href="../assets/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../CSS/verify_otp.css">
+
+    <link rel="preload" href="../assets/background_img_9.jpg" as="image">
+    <link rel="preload" href="../assets/background_img_10.jpg" as="image">
+    <link rel="preload" href="../assets/background_img_11.jpg" as="image">
+    <link rel="preload" href="../assets/background_img_12.jpg" as="image">
+    <link rel="preload" href="../assets/background_img_13.jpg" as="image">
+</head>
+<body>
+    <header>
+        <a href="homepage.html">
+	    	<img class="logo" src="../assets/logo.svg">
+	    </a>
+	    <a href="homepage.html">
+            	<h1>Mercedes Autos</h1>
+	    </a>
+    </header>
+    <br>
+
+    <section>
+        <div class="verify_message">
+	    	<h3>Identity Confirmation Required!</h3>
+	        <hr>
+		    <p>You <strong>must</strong> enter the One-Time Password (OTP) sent to you.</p>
+	        <p class="verify_message_p_end">Confirm Your Identity to Proceed Securely!</p>
+	    </div>
+	    <br>
+
+        <div class="otp_container">
+	        <form action="#" class="otp-form" method="POST">
+	            <input type="text" maxlength="1" class="otp_input" name="otp1" required>
+                <input type="text" maxlength="1" class="otp_input" name="otp2" required>
+		        <input type="text" maxlength="1" class="otp_input" name="otp3" required>
+    		    <input type="text" maxlength="1" class="otp_input" name="otp4" required>
+    	        <input type="text" maxlength="1" class="otp_input" name="otp5" required>
+    	        <input type="text" maxlength="1" class="otp_input" name="otp6" required>
+	            <br>
+
+		        <input name="verify_otp" type="submit" class="otp_submit" value="Verify OTP" disabled>
+	        </form>
+	    </div>
+	    <br>
+
+        <p>Didn't receive code? <a href="#">Resend OTP</a></p>
+    </section>
+    
+    <!-- Javascript -->
+    <script src="../JS/verify_otp.js"></script> 
+</body>
+</html>
