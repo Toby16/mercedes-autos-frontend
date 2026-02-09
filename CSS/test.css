@@ -1,0 +1,41 @@
+.range-wrapper {
+  position: relative;
+  width: 300px;
+}
+
+input[type="range"] {
+  /*position: absolute;*/
+  left: 0;
+  top: 0;
+  width: 100%;
+  pointer-events: none; /* important */
+  appearance: none;
+  height: 4px;
+  background: #ddd;
+  border-radius: 5px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  pointer-events: all;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background: #111;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  pointer-events: all;
+  width: 16px;
+  height: 16px;
+  background: #111;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.values {
+    display: block;
+  margin-top: 30px;
+  font-weight: 600;
+}
